@@ -1,0 +1,68 @@
+
+export const navItems = [
+    { id: 1, title: 'Product', path: '#' },
+    { id: 2, title: 'Pricing', path: '#' },
+    { id: 3, title: 'Solutions', path: '#' },
+    { id: 4, title: 'Customers', path: '#' },
+    { id: 5, title: 'Resources', path: '#' },
+    { id: 6, title: 'Partners', path: '#' },
+]
+
+export const Product = [
+    { id: "H1", title: 'Subscription Management', path: '#' },
+    { id: "H2", title: 'Billing Automation', path: '#' },
+    { id: "H3", title: 'Recurring Payments', path: '#' },
+    { id: "H4", title: 'Accounting & Taxes', path: '#' },
+    { id: "H5", title: 'Customer Retention', path: '#' },
+    { id: 'empty1', title: '', path: '#' },
+    { id: 'empty2', title: '', path: '#' },
+    { id: 'empty3', title: '', path: '#' },
+    { id: 'empty4', title: '', path: '#' },
+    { id: 'empty5', title: '', path: '#' },
+    { id: 1, title: 'Overview', path: '#' },
+    { id: 2, title: 'Overview', path: '#' },
+    { id: 3, title: 'Overview', path: '#' },
+    { id: 4, title: 'Overview', path: '#' },
+    { id: 5, title: 'Tackle churn', path: '#' },
+    { id: 6, title: 'Create & Manage Plans', path: '#' },
+    { id: 7, title: 'Usage Based Billing', path: '#' },
+    { id: 8, title: 'Multiple Payment Methods', path: '#' },
+    { id: 9, title: 'Revenue Recognition', path: '#' },
+    { id: 10, title: 'Retention Toolbox', path: '#' },
+    { id: 11, title: 'Entitlements', path: '#' },
+    { id: 12, title: 'Invoicing Automation', path: '#' },
+    { id: 13, title: 'Multiple Payment Gateways', path: '#' },
+    { id: 14, title: 'Manage Sales Tax', path: '#' },
+    { id: 15, title: 'Billing + Retention', path: '#' },
+    { id: 16, title: 'Pricing Management', path: '#' },
+    { id: 17, title: 'Quotes', path: '#' },
+    { id: 18, title: 'Smart Dunning', path: '#' },
+    { id: 19, title: 'One-Click Reconciliation', path: '#' },
+    { id: 20, title: "Handle Trial Subscriptions", path: '#' },
+    { id: 21, title: 'Proration', path: '#' },
+    { id: 22, title: 'Chargeback Management', path: '#' },
+    { id: 23, title: '', path: '#' },
+    { id: 24, title: '', path: '#' },
+    { id: 25, title: 'Customer Self-service Portal', path: '#' },
+    { id: 26, title: '', path: '#' },
+    { id: 27, title: 'Checkout Experience', path: '#' },
+    { id: "H6", title: 'Reporting & Analytics', path: '#' },
+    { id: 28, title: '', path: '#' },
+    { id: 29, title: 'Mobile Solutions', path: '#' },
+    { id: 30, title: '', path: '#' },
+    { id: 31, title: 'Receivables', path: '#' },
+    { id: 32, title: 'Overview', path: '#' },
+    { id: 33, title: '', path: '#' },
+    { id: 34, title: '', path: '#' },
+    { id: 35, title: '', path: '#' },
+    { id: 36, title: '', path: '#' },
+    { id: 37, title: 'Deferred Revenue Reporting', path: '#' },
+    { id: 38, title: '', path: '#' },
+]
+
+// {id: ,title:'',path:''},
+
+
+
+
+

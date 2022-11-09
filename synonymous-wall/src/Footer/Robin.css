@@ -1,0 +1,49 @@
+.box {
+    /* border: 1px solid red; */
+    padding: 50px 40px;
+    width: 274px;
+    margin: auto;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 16px;
+    position: relative;
+    bottom: 160px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+}
+
+.box div img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.p {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.okta {
+    /* background-color: black; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    bottom: 160px;
+}
+
+.okta img {
+    width: 100px;
+}
+
+/* .robinCard {
+    border: 1px solid blue;
+} */
+
+.quot {
+    position: relative;
+    width: 60px;
+    left: 220px;
+    bottom: 75px;
+}

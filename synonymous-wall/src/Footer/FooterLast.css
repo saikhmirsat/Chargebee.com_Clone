@@ -1,0 +1,57 @@
+.footer-box {
+    padding: 0px 40px 0px 40px;
+    margin-bottom: 200px;
+    width: 189%;
+    margin-top: 0px;
+    position: relative;
+    bottom: 60px;
+}
+
+.foot-items {
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: auto;
+}
+
+
+
+.head {
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: blue;
+}
+
+.circle-log {
+    width: 80px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 10px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 70px;
+}
+
+.social-icon img {
+    width: 30px;
+
+}
+
+.foot-items div p {
+    font-size: 15px;
+}
+
+.foot-items div p:hover {
+    margin-left: 5px;
+    transition: 300ms linear;
+    cursor: pointer;
+}

@@ -1,0 +1,117 @@
+.con2-inner-box {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 30% 60%);
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+/* .con2-inner-box>div {
+    border: 1px solid rgb(102, 128, 0);
+} */
+.con2-main-box {
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 100px;
+}
+
+.con2-first-box {
+    padding-top: 20px;
+}
+
+.head-para {
+    /* border: 1px solid green; */
+    padding-left: 80px;
+}
+
+.head-para>h1 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 70%;
+}
+
+.head-para>p {
+    font-weight: lighter;
+    width: 85%;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.con2-second-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 40px;
+}
+
+.con2-second-box>div {
+    padding: 40px;
+    /* border: 1px solid gray; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: transform 400ms;
+}
+
+.con2-second-box>div:hover {
+    position: relative;
+    bottom: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateY(-10px);
+}
+
+.con2-second-box>div>h1 {
+    font-weight: bold;
+}
+
+.con2-second-box>div>span {
+    color: blue;
+    float: right;
+}
+
+.con2-second-box>div>p {
+    font-weight: lighter;
+    height: 75px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* .con2-last-header {
+    border: 1px solid red;
+} */
+
+.con2-last-header>h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.con2-last-header>p {
+    font-weight: lighter;
+    text-align: center;
+    margin: auto;
+    color: grey;
+    width: 33%;
+}
+
+.nav2 {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    border-bottom: 1px solid rgb(165, 158, 185);
+    /* border-top: 1px solid rgb(165, 158, 185); */
+    padding-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.nav2>p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+}

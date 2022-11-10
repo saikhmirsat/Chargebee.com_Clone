@@ -5,7 +5,7 @@ import RobinLambert from './RobinLambert'
 
 export default function Footer() {
     return (
-        <div>Footer
+        <div className='footerPart'>
             {/* <RobinLambert /> */}
             <div className='white'></div>
             <div className='midle-card-box'>

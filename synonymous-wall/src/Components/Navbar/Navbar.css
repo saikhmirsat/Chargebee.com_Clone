@@ -2,7 +2,7 @@
     color: #00000a;
     font-size: 16px;
     font-weight: 600;
-
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -48,6 +48,7 @@
     margin-left: 20px;
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 a {
@@ -111,6 +112,40 @@ a {
 }
 
 #ProductSubmenu>#ProductItem-Heading {
+    color: black;
+    font-weight: bold;
+}
+
+/* ----------- */
+#SolutionSubmenu {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    line-height: 0;
+    position: absolute;
+    background-color: #f3f3ff;
+    z-index: 2;
+    text-align: left;
+    width: 85%;
+    left: 0px;
+    padding: 10px 163px 100px 50px;
+}
+
+
+
+#SolutionSubmenu>p {
+    color: blue;
+    font-weight: lighter;
+}
+
+#notHeading:hover {
+    margin-left: 5px;
+    transition: 300ms linear;
+    cursor: default;
+}
+
+#SolutionSubmenu>#ProductItem-Heading {
     color: black;
     font-weight: bold;
 }

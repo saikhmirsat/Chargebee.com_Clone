@@ -1,11 +1,12 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import { ProductDropdown } from './Dropdown'
+import { ProductDropdown, SolutionDropdown } from './Dropdown'
 import { useState } from 'react'
 
 export default function Navbar() {
     const [DropdownProduct, setDropdownProduct] = useState(false)
+    const [DropdownSolution, setDropdownSolution] = useState(false)
     return (
         <div className='navbar'>
             <div className='nav-left-item'>
@@ -19,11 +20,22 @@ export default function Navbar() {
                     > <p className='mainMenueitem' >Product</p>
                         {DropdownProduct && <ProductDropdown />}
                     </span>
+
                     <span><Link to="/pricing">Pricing</Link></span>
-                    <span>Solution</span>
+
+                    <span className='Products'
+                        onMouseEnter={() => setDropdownSolution(true)}
+                        onMouseLeave={() => setDropdownSolution(false)}
+                    > <p className='mainMenueitem' >Solutions</p>
+                        {DropdownSolution && <SolutionDropdown />}
+                    </span>
+
                     <span> <Link to="/customers">Customers</Link></span>
+
                     <span>Resources</span>
+
                     <span> <Link to="/partner">Partner</Link></span>
+
                 </div>
             </div>
             <div className='nav-right-items'>

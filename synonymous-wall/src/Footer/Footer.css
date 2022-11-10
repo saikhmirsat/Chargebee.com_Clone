@@ -2,6 +2,11 @@
     height: 270px;
 }
 
+.footerPart {
+    position: relative;
+    bottom: 100px;
+}
+
 .midle-card-box {
 
     display: grid;

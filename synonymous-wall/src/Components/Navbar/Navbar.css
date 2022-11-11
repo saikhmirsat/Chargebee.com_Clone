@@ -76,11 +76,12 @@ a {
 .lgn-ar {
     display: flex;
     /* border: 1px solid gold; */
-    width: 100px;
+    width: 65px;
 }
 
 .lgn-ar:hover {
     justify-content: space-between;
+    /* border: 1px solid red; */
 }
 
 #ProductSubmenu {

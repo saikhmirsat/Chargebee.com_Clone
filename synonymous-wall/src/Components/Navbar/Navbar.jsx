@@ -45,7 +45,7 @@ export default function Navbar() {
                 </div>
                 <div className='glob-world'>
                     <img src="https://i.ibb.co/MRZV5Zh/Lock-Logo.png" alt="Lock-Logo" />
-                    <span className='lgn-ar'><div>Log in</div> <div style={{ marginLeft: '5px' }}> ❯</div></span>
+                    <Link to="/login"> <span className='lgn-ar'><div>Log in</div> <div style={{ marginLeft: '5px' }}> ❯</div></span></Link>
                 </div>
                 <button className='demo-btn'>
                     <div style={{ color: "white", fontWeight: 'bold' }}>Get a Demo</div><div style={{ color: "white", marginLeft: '5px', fontWeight: 'lighter' }} className='arrow'> ❯</div>

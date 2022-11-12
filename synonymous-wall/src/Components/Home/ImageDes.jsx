@@ -141,7 +141,7 @@ export default function ImageDes() {
                 </div>
             </div>
             <div className='LeaderSpringBanner'>
-                <img src="https://i.ibb.co/SnYKfCs/Screenshot-2022-11-10-at-3-12-57-PM.png" alt="img" />
+                <img src="https://i.ibb.co/TH67Gwk/Leader-Spring.png" alt="Leader-Spring" />
             </div>
 
         </div>

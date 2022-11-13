@@ -3,37 +3,36 @@ import Navbar from '../Components/Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import '../Pages/Customers.css'
 
-export default function CustomerDetalPage() {
+export default function SyncSpiderDetail() {
     return (
         <div>
             <Navbar />
             <div className='cos-container'>
                 <div className='container-box-1'>
-                    <img src="https://i.ibb.co/ngpZFNP/Mirsat-family.png" alt="Mirsat-family" />
-                    <p>A mortgage-CRM that helps Loan Officers and their teams systematize the mortgage process and cultivate relationships with their partners in the real estate space.</p>
+                    <img src="https://i.ibb.co/8YmHWNt/Screenshot-2022-11-13-at-3-56-55-PM.png" alt="Screenshot-2022-11-13-at-3-56-55-PM" />
+                    {/* <p>A mortgage-CRM that helps Loan Officers and their teams systematize the mortgage process and cultivate relationships with their partners in the real estate space.</p> */}
                 </div>
                 <div className='container-box-2'>
-                    <img src="https://images.ctfassets.net/a7hvy8sclsq6/2Fi8riH5IgVX4alX01PxSx/01133d776df40d330b7765f632b30e4e/Whiteboard_CRM-logo.png" alt="" />
-                    <h1>How Whiteboard reduced Churn by 100% using Chargebee</h1>
-                    <p>And increased their MRR by 35% with improved billing operations</p>
+                    <img src="https://images.ctfassets.net/a7hvy8sclsq6/4KQMyH8cjSCpej40xWnVtP/24a9b5586ff08545c627722f44b4a925/ss_logo_blue.svg" alt="" />
+                    <h1>How SyncSpider made offline and online payments possible for their customers with Chargebee</h1>
+                    <p>Chargebee helped Syncspider expand their business globally by making their billing system compliant to global taxation and by enabling online and offline payments.</p>
                 </div>
             </div>
             <div className='cos-container-2'>
                 <div style={{ borderRight: '1px solid rgb(198, 196, 196)' }}>
-                    <h3>Operational Hassles</h3>
-                    <hr />
-                    <p className='con-2-head'>Operational nightmare on customer retention and revenue recovery</p>
-                    <p className='con-2-para'>Whiteboard couldn’t streamline operations around payment failures with inconsistent policies around deactivations and cancelations.</p>
-                    <p className='con-2-head'>Unreliable and incorrect SaaS metrics</p>
-                    <p className='con-2-para'>Whiteboard was not anchored on the right SaaS success metrics (MRR, ARR, Churn, etc.)</p>
+
+                    <p className='con-2-head'> What SyncSpider was looking for:</p>
+                    <p className='con-2-para'>Automate recurring billing</p>
+                    <p className='con-2-para'>Possibility to enable offline payments for specific users</p>
+                    {/* <p className='con-2-head'>Unreliable and incorrect SaaS metrics</p> */}
+                    {/* <p className='con-2-para'>Whiteboard was not anchored on the right SaaS success metrics (MRR, ARR, Churn, etc.)</p> */}
                 </div>
                 <div>
-                    <h3>After Chargebee</h3>
-                    <hr />
-                    <p className='con-2-head'>Better dunning for improved revenue recovery and reduced churn</p>
-                    <p className='con-2-para'>Chargebee’s Dunning helped standardize processes around payment failures, improving MRR by 35% and reducing churn by 100%.</p>
-                    <p className='con-2-head'>RevenueStory for accurate subscription analytics</p>
-                    <p className='con-2-para'>RevenueStory made it pretty easy to put critical measurements in place. MRR, ARR, Churn, Expansion, etc. are all at their fingertips every day.</p>
+                    <p className='con-2-head'>After Chargebee</p>
+                    <p className='con-2-para'>Streamlined recurring billing operations with a slew of features</p>
+                    {/* <p className='con-2-head'>RevenueStory for accurate subscription analytics</p> */}
+                    <p className='con-2-para'>Scaled from being a European company to global markets </p>
+                    <p className='con-2-para'>Flexibility to accept online and offline payments with dunning capabilities </p>
                 </div>
             </div>
             <div className='cos-con-3-head'>

@@ -48,7 +48,7 @@ export default function Navbar() {
                     <Link to="/login"> <span className='lgn-ar'><div>Log in</div> <div style={{ marginLeft: '5px' }}> ❯</div></span></Link>
                 </div>
                 <button className='demo-btn'>
-                    <div style={{ color: "white", fontWeight: 'bold' }}>Get a Demo</div><div style={{ color: "white", marginLeft: '5px', fontWeight: 'lighter' }} className='arrow'> ❯</div>
+                    <Link to='/demoPage' style={{ color: "white", fontWeight: 'bold' }}>Get a Demo</Link><div style={{ color: "white", marginLeft: '5px', fontWeight: 'lighter' }} className='arrow'> ❯</div>
                 </button>
             </div>
         </div>

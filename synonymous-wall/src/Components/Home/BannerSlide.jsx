@@ -46,8 +46,8 @@ export default function BannerSlide() {
             </Swiper>
             <p className="banner-para">Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.</p>
             <div className="banner-btn-box">
-                <button className='banner-demo-btn' colorScheme='teal' variant='outline'>
-                    <div style={{ color: "white", fontWeight: 'bold' }}>Get a Demo</div><div style={{ color: "white", marginLeft: '5px', fontWeight: 'lighter' }} className='arrow'> ➔</div>
+                <button className='banner-demo-btn' >
+                    <div className="banner-get-demo-btn" >Get a Demo</div><div style={{ color: "white", marginLeft: '5px', fontWeight: 'lighter' }} className='arrow'> ➔</div>
                 </button>
                 <button className='banner-demo-btn2' colorScheme='teal' variant='outline'>
                     <div >Sign up for free</div><div style={{ marginLeft: '5px', fontWeight: 'lighter' }} className='arrow'> ➔</div>

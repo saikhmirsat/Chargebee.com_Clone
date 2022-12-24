@@ -47,3 +47,42 @@
     left: 220px;
     bottom: 66px;
 }
+
+@media (max-width:820px) {
+    .robinCard {
+
+        background: linear-gradient(90deg, rgba(59, 35, 153, 1) 35%, rgba(108, 28, 136, 1) 100%);
+
+        padding-top: 50px;
+    }
+
+    .box {
+        /* border: 1px solid gold; */
+        bottom: 0px;
+    }
+
+    .okta {
+        display: none;
+        /* bottom: 0px; */
+    }
+
+   
+}
+
+@media (max-width:420px) {
+    .robinCard {
+        /* border: 2px solid rebeccapurple; */
+        background: linear-gradient(90deg, rgba(59, 35, 153, 1) 35%, rgba(108, 28, 136, 1) 100%);
+        /* position: relative;
+        top: 60px; */
+        padding-top: 50px;
+    }
+
+    .box {
+        bottom: 0px;
+    }
+
+    .okta {
+        display: none;
+    }
+}

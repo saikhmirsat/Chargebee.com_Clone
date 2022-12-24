@@ -86,3 +86,53 @@
 .LeaderSpringBanner>img {
     width: 70%;
 }
+
+@media screen and (max-width:820px) {
+    .des-img-box {
+        /* border: 1px solid rgb(0, 208, 255); */
+        padding: 20px;
+        padding-top: 0px;
+    }
+
+    .des-img {
+        border: 1px solid rgb(211, 207, 207);
+        /* grid-template-columns: repeat(1, 1fr); */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .des-img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .des-img-box {
+        /* border: 1px solid rgb(0, 208, 255); */
+        padding: 10px;
+        margin-top: 100px;
+    }
+
+    .des-img {
+        /* border: 1px solid greenyellow; */
+        /* grid-template-columns: repeat(1, 1fr); */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* margin-bottom: -100px; */
+    }
+
+    .des-img img {
+        width: 100%;
+    }
+
+    .LeaderSpringBanner {
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .LeaderSpringBanner>img {
+        width: 100%;
+    }
+}

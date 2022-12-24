@@ -48,6 +48,7 @@ export default function FooterLast() {
                     <p>Privacy Policy</p>
                 </div>
             </div>
+            
             <img className='circle-log' src="https://i.ibb.co/BC8zPhq/circle-logo.png" alt="circle-logo" border="0"></img>
             <div className='social-icon'>
                 <a href="https://www.facebook.com/chargebee" target="_blank"><img src="https://i.ibb.co/KXrJQj3/fb.png" alt="fb" /></a>

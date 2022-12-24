@@ -11,7 +11,7 @@ export default function Container2() {
                         <h1>Designed to go Beyond Billing.</h1>
                         <p>Get the freedom to experiment, launch, and scale strategies as fast as you can think of them.</p>
                     </div>
-                    <div>
+                    <div className='animate-div-box'>
                         <img src="https://i.ibb.co/NYzLp4z/Final-Animation.gif" alt="Final-Animation" />
                     </div>
                 </div>

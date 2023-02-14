@@ -1,5 +1,18 @@
 # Chargebee_Clone
-Chargebee is the only platform that powers your full recurring revenue lifecycle. Billing. Manage subscriptions, billing, and invoicing at scale.
+
+
+
+
+This website is a clone of Chargebee.com <br/>
+and Chargebee is the only platform that powers your full recurring revenue lifecycle. Billing. Manage subscriptions, billing, and invoicing at scale. </br>
+Deployed Project Link - https://chargebee-com-clone.vercel.app/
+
+
+## Solo Project
+
+Duration - 5days
+
+Project name- Chargebee.com
 
 <img src="https://shortbuzz.in/media/www-chargebee-com/www-chargebee-com-logo.webp" width="100%"/>
 <img src="https://i.ibb.co/MBRt76f/charegebee-home-image.png" alt="charegebee-home-image" border="0" width="100%">
